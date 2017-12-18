@@ -1,3 +1,20 @@
+"""
+　　　　 ∧_∧::
+　(⌒=- (Д｀ )::
+⊂~ﾍ　 /⌒　 ⌒i/~つ
+　＼＼/ ｜ 　| / /::
+　　＼_/｜　 ヽ_/::
+　　 　 /　　/::
+　　　／　 　)::
+　　／ ／/　/::
+　 (　< /　/::
+　　＼ (　ｲ_:
+　　　`｜ | ):
+　 　　｜ |/::
+＿＿＿ /　)＿＿＿＿＿
+　　　(_／
+
+"""
 import random
 import itertools
 
@@ -148,7 +165,8 @@ class Reversi:
         return next_position
 
 
-#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------#
+
 BLACK_MARK = 'X'
 WHITE_MARK = 'O'
 
@@ -165,7 +183,7 @@ def print_board(reversi):
 
 def input_level():
     while True:
-        s = input('Level? 1/2[1]')
+        s = input('Level "1" or "2" ?')
         if s == '':
             return 1
         if s in ('1', '2'):
@@ -192,7 +210,7 @@ def print_position(player, xy):
         print('{}: {}{}'.format(
             BLACK_MARK if player == BLACK else WHITE_MARK,
             chr(xy[1]+97),
-            chr(xy[0]+49)
+            chr(xy[0]+49),
         ))
 
 
@@ -231,6 +249,8 @@ def start_game():
 if __name__ == "__main__":
     start_game()
 
+
+#-------------------------------------------------------------------------------
     """
     I have to like into time or more lavel or some option
     """

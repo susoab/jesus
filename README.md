@@ -13,4 +13,5 @@
  ### how to git
  - ブランチ切り替え
    - git checkout <branch>
-   - 
+ - マージに関して
+   - merge 

@@ -252,7 +252,7 @@ if __name__ == "__main__":
 
 #-------------------------------------------------------------------------------
     """
-    hi  we'll have a party at 22/12/2017
+    hi  we'll have a Xmas party at 22/12/2017(here)
     We'd be happy if sparklab emproyy could come!
     thanks.
     I have to like into time or more lavel or some option

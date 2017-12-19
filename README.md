@@ -13,6 +13,9 @@
  ### how to git
  - ブランチ切り替え
    - git checkout <branch>
+<<<<<<< HEAD
  - mergeの規則
    -  merge先にcheckoutしてから
-   
+ - マージに関して
+   - merge 
+

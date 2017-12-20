@@ -19,3 +19,11 @@
  - マージに関して
    - merge 
 
+##### how to use anaconda?
+ - 
+
+##### how to use jupyter?
+ - 
+
+ 
+

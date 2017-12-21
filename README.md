@@ -10,7 +10,7 @@
  - be hunble shit down
  - I usually live in HCMC. But I was born in JP
 
- #### how to use git?
+ #### how to use git?(like a snippet)
  - change to branch
    - git checkout
  - 前回コミット(HEAD)からの差分
@@ -37,6 +37,11 @@
    - git show 
  - delate to file
    - git rm ***
+ - masterの内容を開発ブランチに反映
+   - git pull origin master
+ - branchを作る上と同時にそこへcheckout
+   - git checkout -b *** origin/master
+
  
 
 ##### how to use anaconda?

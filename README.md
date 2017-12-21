@@ -40,12 +40,26 @@
  - masterの内容を開発ブランチに反映
    - git pull origin master
  - branchを作る上と同時にそこへcheckout
-   - git checkout -b *** origin/master
-
- 
+   - git checkout -b [branch name] origin/master
+-----
+ - branch snippet
+   - git checkout -b [branch name] origin/master
+   - git branch -a（for check)
+     - まだmasterに何もない場合は何か作成
+     - 既にmasterに何かあってpullしたい(git pull origin [?])
+   - git add ***
+   - git commit
+   - git push origin [branch name]
+   - git branch -a（for check)
+   - git checkout master
+   - git merge test
+   - git push
+-----
+ - ****
 
 ##### how to use anaconda?
- - 
+ - Distribution of python
+ - Into jupyter or spyder or something
 
 ##### how to use jupyter?
  - run call: control+enter

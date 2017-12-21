@@ -40,6 +40,7 @@
  - masterの内容を開発ブランチに反映
    - git pull origin master
  - branchを作る上と同時にそこへcheckout
+<<<<<<< HEAD
    - git checkout -b [branch name] origin/master
 -----
  - branch snippet
@@ -56,6 +57,11 @@
    - git push
 -----
  - ****
+=======
+   - git checkout -b *** origin/master
+
+ 
+>>>>>>> d09481d13ea68d363dd3106cc69eedc929d4658f
 
 ##### how to use anaconda?
  - Distribution of python

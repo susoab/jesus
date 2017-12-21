@@ -1,6 +1,5 @@
 ## hello guys
- - wassap Im looking fowerd to meeting you
-
+ - wwwwwwwwwassap
 #### what kinda japanese food do you like?
  - like a seafood or sushi or karaage....somethings
 
@@ -41,10 +40,6 @@
  - masterの内容を開発ブランチに反映
    - git pull origin master
  - branchを作る上と同時にそこへcheckout
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> issue2
    - git checkout -b [branch name] origin/master
 -----
  - branch snippet
@@ -52,7 +47,7 @@
    - git branch -a（for check)
      - まだmasterに何もない場合は何か作成
      - 既にmasterに何かあってpullしたい(git pull origin [?])
-   - git add ***
+   - git add *** 
    - git commit
    - git push origin [branch name]
    - git branch -a（for check)
@@ -61,14 +56,7 @@
    - git push
 -----
  - ****
-<<<<<<< HEAD
-=======
-=======
    - git checkout -b *** origin/master
-
- 
->>>>>>> d09481d13ea68d363dd3106cc69eedc929d4658f
->>>>>>> issue2
 
 ##### how to use anaconda?
  - Distribution of python

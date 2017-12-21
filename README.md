@@ -46,7 +46,7 @@
    - git checkout -b [branch name] origin/master
    - git branch -a（for check)
      - まだmasterに何もない場合は何か作成
-     - 既にmasterに何かあってpullしたい(git pull origin [?])
+     - 既にmasterに何かあってpullしたい(git pull origin master)
    - git add *** 
    - git commit
    - git push origin [branch name]
@@ -66,7 +66,7 @@
  - run call: control+enter
  - command: jupyter notebook + enter
  - how to up graph?: write markdown
- - 
+ - yup
 
 
 

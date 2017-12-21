@@ -4,11 +4,12 @@
  - like a seafood or sushi or karaage....somethings
 
 #### my introduce
- - i'm ***
+ - i'm *** golden boy
  - usually I went to anywhere but alone huh
  - if you dont understand japanese style, you don't care about me
  - be hunble shit down
  - I usually live in HCMC. But I was born in JP
+ - anytime I can do for anybody
 
  #### how to use git?(like a snippet)
  - change to branch

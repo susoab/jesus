@@ -46,7 +46,11 @@
    - git checkout -b [branch name] origin/master
    - git branch -a（for check)
      - まだmasterに何もない場合は何か作成
+<<<<<<< HEAD
      - 既にmasterに何かあってpullしたい(git pull origin master)
+=======
+     - 既にmasterに何かあってpullしたい(git pull origin [?])
+>>>>>>> issue2
    - git add ***
    - git commit
    - git push origin [branch name]
@@ -54,9 +58,15 @@
    - git checkout master
    - git merge test
    - git push
+<<<<<<< HEAD
+=======
+-----
+ - ****
+>>>>>>> issue2
 
 ##### how to use anaconda?
- - 
+ - Distribution of python
+ - Into jupyter or spyder or something
 
 ##### how to use jupyter?
  - run call: control+enter

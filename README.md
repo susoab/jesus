@@ -1,4 +1,5 @@
 ## hello guys
+ - wassap Im looking fowerd to meeting you
 
 #### what kinda japanese food do you like?
  - like a seafood or sushi or karaage....somethings
@@ -46,11 +47,7 @@
    - git checkout -b [branch name] origin/master
    - git branch -a（for check)
      - まだmasterに何もない場合は何か作成
-<<<<<<< HEAD
-     - 既にmasterに何かあってpullしたい(git pull origin master)
-=======
      - 既にmasterに何かあってpullしたい(git pull origin [?])
->>>>>>> issue2
    - git add ***
    - git commit
    - git push origin [branch name]
@@ -58,11 +55,8 @@
    - git checkout master
    - git merge test
    - git push
-<<<<<<< HEAD
-=======
 -----
  - ****
->>>>>>> issue2
 
 ##### how to use anaconda?
  - Distribution of python

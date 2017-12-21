@@ -1,22 +1,18 @@
 ## hello guys
 
-##### what kinda japanese food do you like?
+#### what kinda japanese food do you like?
  - like a seafood or sushi or karaage....somethings
 
-##### my introduce
+#### my introduce
  - i'm ***
  - usually I went to anywhere but alone huh
  - if you dont understand japanese style, you don't care about me
  - be hunble shit down
- - 
+ - I usually live in HCMC. But I was born in JP
 
- ### how to use git?
- - ブランチ切り替え
+ #### how to use git?
+ - change to branch
    - git checkout
- - mergeの規則
-   -  merge先にcheckoutしてから
- - マージに関して
-   - merge 
  - 前回コミット(HEAD)からの差分
    - git diff HEAD
  - ステージングエリアとHEADとの差分
@@ -32,6 +28,17 @@
    - git add ***
    - git commit -m "***"
    - git push origin add-***
+ - check into log
+   - git log
+   - git --no-pager log
+ - 修正したファイルをすべてaddしたいなら、-u が便利
+   - git add -u
+ - コミット詳細
+   - git show 
+ - delate to file
+   - git rm ***
+ 
+
 ##### how to use anaconda?
  - 
 

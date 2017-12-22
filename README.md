@@ -10,8 +10,9 @@
  - be hunble shit down
  - I usually live in HCMC. But I was born in JP
  - anytime I can do for anybody
-
- #### how to use git?(like a snippet)
+-----
+### memo(It's a snippet like how to every tech tool)
+#### how to use git?(like a snippet)
  - change to branch
    - git checkout
  - 前回コミット(HEAD)からの差分
@@ -71,6 +72,14 @@
  - command: jupyter notebook + enter
  - how to up graph?: write markdown
  - yup
+
+##### how to use spyder?
+ - for python
+ - 
+
+##### how to redmine
+ - 
+
 
 
 

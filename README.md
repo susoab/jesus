@@ -4,7 +4,7 @@
  - like a seafood or sushi or karaage....somethings
 
 #### my introduce
- - i'm *** golden boy
+ - i'm *** 
  - usually I went to anywhere but alone huh
  - if you dont understand japanese style, you don't care about me
  - be hunble shit down

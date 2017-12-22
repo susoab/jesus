@@ -59,6 +59,27 @@
    - git checkout -b *** origin/master
  - githubであらかじめリポジトリを作っておいて、そこをpush先に指定。
    - git remote add origin [url of リポジトリ] 
+ - git commit → vim
+   - u : like a cntl+z
+   - :wq : finish(easy)
+ - sample words for commit -m
+   - https://anond.hatelabo.jp/20160725092419
+   - Add ~
+   - Fix ~
+   - Update	~
+   - Remove ~
+   - Use ~
+   - Don't ~
+   - Make	~
+   - Move ~
+   - Change ~
+   - Rename ~
+   - Improve ~
+   - Avoid ~
+   - Allow ~
+   - Implement ~
+   - Handle	~
+
 ##### how to use anaconda?
  - Distribution of python
  - Into jupyter or spyder or something

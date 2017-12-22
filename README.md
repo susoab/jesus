@@ -79,7 +79,7 @@
    - Allow ~
    - Implement ~
    - Handle	~
-   - 
+ - 
 
 ##### How to use anaconda?
  - Distribution of python

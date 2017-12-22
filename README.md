@@ -56,9 +56,12 @@
    - git merge test
    - git push
 -----
- - ****
+ - これ分からん
    - git checkout -b *** origin/master
-
+-----
+ - githubであらかじめリポジトリを作っておいて、そこをpush先に指定。
+   - git remote add origin [url of リポジトリ]
+ - 
 ##### how to use anaconda?
  - Distribution of python
  - Into jupyter or spyder or something

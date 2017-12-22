@@ -9,7 +9,7 @@
  - if you dont understand japanese style, you don't care about me
  - be hunble shit down
  - I usually live in HCMC. But I was born in JP
- - anytime I can do for anybody
+ - anytime I can do for anybody 
 -----
 ### Memo(It's a snippet like how to every tech tool)
 #### How to use git?(like a snippet)

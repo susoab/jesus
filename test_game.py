@@ -213,7 +213,6 @@ def print_position(player, xy):
             chr(xy[0]+49),
         ))
 
-
 def start_game():
     reversi = Reversi()
     level = input_level()
@@ -248,8 +247,6 @@ def start_game():
 
 if __name__ == "__main__":
     start_game()
-
-
 #-------------------------------------------------------------------------------
     """
     hi  we'll have a Xmas party at 22/12/2017(here)

@@ -43,7 +43,6 @@
    - git pull origin master
  - branchを作る上と同時にそこへcheckout
    - git checkout -b [branch name] origin/master
------
  - branch snippet
    - git checkout -b [branch name] origin/master
    - git branch -a（for check)
@@ -56,13 +55,10 @@
    - git checkout master
    - git merge test
    - git push
------
  - これ分からん
    - git checkout -b *** origin/master
------
  - githubであらかじめリポジトリを作っておいて、そこをpush先に指定。
-   - git remote add origin [url of リポジトリ]
- - 
+   - git remote add origin [url of リポジトリ] 
 ##### how to use anaconda?
  - Distribution of python
  - Into jupyter or spyder or something
@@ -75,10 +71,12 @@
 
 ##### how to use spyder?
  - for python
- - 
 
-##### how to redmine
- - 
+##### how to Oauth<br>
+ - リクエストトークンを発行
+ - リクエストトークンを使ってアプリ認証画面に飛ばす
+ - コールバックURLでアクセストークンを取得
+ - アクセストークンを使ってAPIを呼ぶ
 
 
 

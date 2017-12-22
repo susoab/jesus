@@ -1,9 +1,9 @@
-## hello guys
- - wwwwwwwwwassap
-#### what kinda japanese food do you like?
- - like a seafood or sushi or karaage....somethings
+## Hello guys
+ - Im looking foward to meeting with you~ 
+#### What's this & for what? 
+ - This's a memo like a for output & memory
 
-#### my introduce
+#### My introduce
  - i'm *** 
  - usually I went to anywhere but alone huh
  - if you dont understand japanese style, you don't care about me
@@ -11,8 +11,8 @@
  - I usually live in HCMC. But I was born in JP
  - anytime I can do for anybody
 -----
-### memo(It's a snippet like how to every tech tool)
-#### how to use git?(like a snippet)
+### Memo(It's a snippet like how to every tech tool)
+#### How to use git?(like a snippet)
  - change to branch
    - git checkout
  - 前回コミット(HEAD)からの差分
@@ -79,21 +79,22 @@
    - Allow ~
    - Implement ~
    - Handle	~
+   - 
 
-##### how to use anaconda?
+##### How to use anaconda?
  - Distribution of python
  - Into jupyter or spyder or something
 
-##### how to use jupyter?
+##### How to use jupyter?
  - run call: control+enter
  - command: jupyter notebook + enter
  - how to up graph?: write markdown
  - yup
 
-##### how to use spyder?
+##### How to use spyder?
  - for python
 
-##### how to Oauth<br>
+##### How to Oauth<br>
  - リクエストトークンを発行
  - リクエストトークンを使ってアプリ認証画面に飛ばす
  - コールバックURLでアクセストークンを取得

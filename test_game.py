@@ -22,7 +22,7 @@ EMPTY = 0
 BLACK = -1
 WHITE = 1
 
-WEIGHT1_MATRIX = [
+map1 = [
     [120, -20, 20, 5, 5, 20, -20, 120],
     [-20, -40, -5, -5, -5, -5, -40, -20],
     [20, -5, 15, 3, 3, 15, -5, 20],
@@ -34,7 +34,7 @@ WEIGHT1_MATRIX = [
 ]
 
 
-WEIGHT2_MATRIX = [
+map2 = [
     [30, -12, 0, -1, -1, 0, -12, 30],
     [-12, -15, -3, -3, -3, -3, -15, -12],
     [0, -3, 0, -1, -1, 0, -3, 0],
@@ -217,9 +217,9 @@ def start_game():
     reversi = Reversi()
     level = input_level()
     if level == 2:
-        weight_matrix = WEIGHT1_MATRIX
+        weight_matrix = map1
     else:
-        weight_matrix = WEIGHT2_MATRIX
+        weight_matrix = map2
 
     player = BLACK
     while not (

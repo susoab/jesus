@@ -100,13 +100,15 @@
  - アクセストークンを使ってAPIを呼ぶ
 
 
-##### How to En
+##### En snippet(like a buzz words)
  - jesus crist
  - kinda wanna gonna gatta
  - whatever whenever however 
  - how's going on 
  - 
 
-
+##### how to get AWS record(maybe until afret a year)
+ - learn(should buy some book or ass dig)
+ - I have to get this one cuz wanna get more ass skill
 
 

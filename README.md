@@ -85,10 +85,11 @@
  - Into jupyter or spyder or something
 
 ##### How to use jupyter?
- - run call: control+enter
+ - run call: control + enter
  - command: jupyter notebook + enter
  - how to up graph?: write markdown
- - yup
+ - finish: control + c
+ - tt
 
 ##### How to use spyder?
  - for python

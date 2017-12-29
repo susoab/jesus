@@ -68,7 +68,7 @@ class Reversi:
         for i in range(8):
             for j in range(8):
                 if self.board[i][j] == bwe:
-                    n + = 1
+                    n += 1
         return n
 
     def _has_my_piece(self, bw, x, y, delta_x, delta_y):

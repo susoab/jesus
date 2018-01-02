@@ -62,7 +62,6 @@ class Reversi:
                     self.board[i][j] = orig.board[i][j]
 
     def count(self, bwe):
-        "Count pieces or empty spaces in the board"
         assert bwe in (BLACK, WHITE, EMPTY)
         n = 0
         for i in range(8):
@@ -72,7 +71,6 @@ class Reversi:
         return n
 
     def _has_my_piece(self, bw, x, y, delta_x, delta_y):
-        "There is my piece in the direction of (delta_x, delta_y) from (x, y)."
         assert bw in (BLACK, WHITE)
         assert delta_x in (-1, 0, 1)
         assert delta_y in (-1, 0, 1)
@@ -86,7 +84,6 @@ class Reversi:
         return self._has_my_piece(bw, x, y, delta_x, delta_y)
 
     def reversible_directions(self, bw, x, y):
-        "Can put piece on (x, y) ? Return list of reversible direction tuple"
         assert bw in (BLACK, WHITE)
 
         directions = []
@@ -105,7 +102,6 @@ class Reversi:
         return directions
 
     def _reverse_piece(self, bw, x, y, delta_x, delta_y):
-        "Reverse pieces in the direction of (delta_x, delta_y) from (x, y) untill bw."
         assert bw in (BLACK, WHITE)
 
         x += delta_x
@@ -119,11 +115,6 @@ class Reversi:
         return self._reverse_piece(bw, x, y, delta_x, delta_y)
 
     def put(self, x, y, bw):
-        """
-        True: Put bw's piece on (x, y) and change board status.
-        False: Can't put bw's piece on (x, y)
-        """
-
         assert bw in (BLACK, WHITE)
         directions = self.reversible_directions(bw, x, y)
         if len(directions) == 0:
@@ -147,7 +138,6 @@ class Reversi:
         return my_score - against_score
 
     def find_best_position(self, bw, weight_matrix):
-        "Return the best next position."
         assert bw in (BLACK, WHITE)
 
         next_positions = {}

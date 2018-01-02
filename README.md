@@ -7,9 +7,8 @@
  - i'm *** 
  - usually I went to anywhere but alone huh
  - if you dont understand japanese style, you don't care about me
- - be hunble shit down
- - I usually live in HCMC. But I was born in JP
- - anytime I can do for anybody 
+ - I just live in HCMC now. But I was born in JP
+ - anytime I can meet someone 
 -----
 ### Memo(It's a snippet like how to every tech tool)
 #### How to use git?(like a snippet)
@@ -106,7 +105,6 @@
  - kinda wanna gonna gatta
  - whatever whenever however 
  - how's going on 
- - 
 
 ##### how to get AWS record(maybe until afret a year)
  - learn(should buy some book or ass dig)
@@ -171,3 +169,5 @@ params = { 'body': message }
 response = requests.post(post_message_url, headers=headers, params=params)
 print(response)
 ```
+
+##### How to 

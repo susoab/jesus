@@ -53,8 +53,6 @@ class osero:
 
         self.board[3][3] = self.board[4][4] = BLACK
         self.board[4][3] = self.board[3][4] = WHITE
-
-        # copy constructor
         if orig:
             assert isinstance(orig, osero)
             for i in range(8):

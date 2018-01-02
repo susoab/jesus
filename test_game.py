@@ -45,7 +45,7 @@ map2 = [
     [30, -12, 0, -1, -1, 0, -12, 30],
 ]
 
-class Reversi:
+class osero:
     def __init__(self, orig=None):
         self.board = []
         for i in range(8):
@@ -56,7 +56,7 @@ class Reversi:
 
         # copy constructor
         if orig:
-            assert isinstance(orig, Reversi)
+            assert isinstance(orig, osero)
             for i in range(8):
                 for j in range(8):
                     self.board[i][j] = orig.board[i][j]
@@ -143,7 +143,7 @@ class Reversi:
         next_positions = {}
         for i in range(8):
             for j in range(8):
-                reversi = Reversi(self)
+                reversi = osero(self)
                 if reversi.put(i, j, bw):
                     next_positions.setdefault(
                         reversi._calc_score(bw, weight_matrix), []
@@ -204,7 +204,7 @@ def print_position(player, xy):
         ))
 
 def start_game():
-    reversi = Reversi()
+    reversi = osero()
     level = input_level()
     if level == 2:
         weight_matrix = map1

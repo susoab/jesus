@@ -17,6 +17,7 @@
 """
 import random
 import itertools
+import numpy
 
 EMPTY = 0
 BLACK = -1

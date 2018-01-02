@@ -1,10 +1,10 @@
 import requests
  
-api_token = 'Your API token'
+api_token = '***'
 base_url = 'https://api.chatwork.com/v2'
  
-room_id = 'rid66869579'
-message = 'wassap shun'
+room_id = '66869579'
+message = 'wassap wake up right now!!!'
  
 post_message_url = '{}/rooms/{}/messages'.format(base_url, room_id)
 headers = { 'X-ChatWorkToken': api_token }

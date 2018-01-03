@@ -17,7 +17,6 @@
 """
 import random
 import itertools
-import numpy
 
 EMPTY = 0
 BLACK = -1
@@ -46,7 +45,7 @@ map2 = [
     [30, -12, 0, -1, -1, 0, -12, 30],
 ]
 
-class osero:
+class Reversi:
     def __init__(self, orig=None):
         self.board = []
         for i in range(8):
@@ -54,8 +53,10 @@ class osero:
 
         self.board[3][3] = self.board[4][4] = BLACK
         self.board[4][3] = self.board[3][4] = WHITE
+
+        # copy constructor
         if orig:
-            assert isinstance(orig, osero)
+            assert isinstance(orig, Reversi)
             for i in range(8):
                 for j in range(8):
                     self.board[i][j] = orig.board[i][j]
@@ -69,7 +70,7 @@ class osero:
                     n += 1
         return n
 
-    def wassap(self, bw, x, y, delta_x, delta_y):
+    def _has_my_piece(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
         assert delta_x in (-1, 0, 1)
         assert delta_y in (-1, 0, 1)
@@ -80,9 +81,9 @@ class osero:
             return False
         if self.board[x][y] == bw:
             return True
-        return self.wassap(bw, x, y, delta_x, delta_y)
+        return self._has_my_piece(bw, x, y, delta_x, delta_y)
 
-    def reversible(self, bw, x, y):
+    def reversible_directions(self, bw, x, y):
         assert bw in (BLACK, WHITE)
 
         directions = []
@@ -96,11 +97,11 @@ class osero:
             ny = y + d[1]
             if nx < 0 or nx > 7 or ny < 0 or ny > 7 or self.board[nx][ny] != bw * -1:
                 continue
-            if self.wassap(bw, nx, ny, d[0], d[1]):
+            if self._has_my_piece(bw, nx, ny, d[0], d[1]):
                 directions.append(d)
         return directions
 
-    def _reverse(self, bw, x, y, delta_x, delta_y):
+    def _reverse_piece(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
 
         x += delta_x
@@ -111,20 +112,20 @@ class osero:
             return
 
         self.board[x][y] = bw
-        return self._reverse(bw, x, y, delta_x, delta_y)
+        return self._reverse_piece(bw, x, y, delta_x, delta_y)
 
     def put(self, x, y, bw):
         assert bw in (BLACK, WHITE)
-        directions = self.reversible(bw, x, y)
+        directions = self.reversible_directions(bw, x, y)
         if len(directions) == 0:
             return False
         self.board[x][y] = bw
         for delta in directions:
-            self._reverse(bw, x, y, delta[0], delta[1])
+            self._reverse_piece(bw, x, y, delta[0], delta[1])
         return True
 
 
-    def _calc(self, bw, weight_matrix):
+    def _calc_score(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
         my_score = 0
         against_score = 0
@@ -136,16 +137,16 @@ class osero:
                     against_score += weight_matrix[i][j]
         return my_score - against_score
 
-    def thebest(self, bw, weight_matrix):
+    def find_best_position(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
 
         next_positions = {}
         for i in range(8):
             for j in range(8):
-                reversi = osero(self)
+                reversi = Reversi(self)
                 if reversi.put(i, j, bw):
                     next_positions.setdefault(
-                        reversi._calc(bw, weight_matrix), []
+                        reversi._calc_score(bw, weight_matrix), []
                     ).append((i, j))
         if next_positions:
             next_position = random.choice(next_positions[max(next_positions)])
@@ -160,7 +161,7 @@ BLACK_MARK = 'M'
 WHITE_MARK = 'S'
 
 
-def board(reversi):
+def print_board(reversi):
     print('\n   a b c d e f g h \n  +-+-+-+-+-+-+-+-+')
     for i, row in enumerate(reversi.board):
         print(' %d|' % (i+1), end='')
@@ -170,7 +171,7 @@ def board(reversi):
     print()
 
 
-def level():
+def input_level():
     while True:
         s = input('Level "1" or "2" ?')
         if s == '':
@@ -192,7 +193,7 @@ def input_position(player):
     return x, y
 
 
-def position(player, xy):
+def print_position(player, xy):
     if xy is None:
         print('{}: skip'.format(BLACK_MARK if player == BLACK else WHITE_MARK))
     else:
@@ -202,9 +203,9 @@ def position(player, xy):
             chr(xy[0]+49),
         ))
 
-def go():
-    reversi = osero()
-    level = level()
+def start_game():
+    reversi = Reversi()
+    level = input_level()
     if level == 2:
         weight_matrix = map1
     else:
@@ -216,18 +217,18 @@ def go():
         reversi.count(BLACK) == 0 or
         reversi.count(WHITE) == 0
     ):
-        board(reversi)
+        print_board(reversi)
         xy = input_position(player)
         while xy and not reversi.put(xy[0], xy[1], player):
             xy = input_position(player)
 
-        board(reversi)
-        xy = reversi.thebest(player * -1, weight_matrix)
+        print_board(reversi)
+        xy = reversi.find_best_position(player * -1, weight_matrix)
         if xy:
             reversi.put(xy[0], xy[1], player * -1)
-        position(player * -1, xy)
+        print_position(player * -1, xy)
 
-    board(reversi)
+    print_board(reversi)
     if reversi.count(player) > reversi.count(player * -1):
         print('You win!')
     elif reversi.count(player) < reversi.count(player * -1):
@@ -235,7 +236,7 @@ def go():
 
 
 if __name__ == "__main__":
-    go()
+    start_game()
 #-------------------------------------------------------------------------------
     """
     testtest

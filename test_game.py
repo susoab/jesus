@@ -69,7 +69,7 @@ class osero:
                     n += 1
         return n
 
-    def _has_my_piece(self, bw, x, y, delta_x, delta_y):
+    def wassap(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
         assert delta_x in (-1, 0, 1)
         assert delta_y in (-1, 0, 1)
@@ -80,9 +80,9 @@ class osero:
             return False
         if self.board[x][y] == bw:
             return True
-        return self._has_my_piece(bw, x, y, delta_x, delta_y)
+        return self.wassap(bw, x, y, delta_x, delta_y)
 
-    def reversible_directions(self, bw, x, y):
+    def reversible(self, bw, x, y):
         assert bw in (BLACK, WHITE)
 
         directions = []
@@ -96,11 +96,11 @@ class osero:
             ny = y + d[1]
             if nx < 0 or nx > 7 or ny < 0 or ny > 7 or self.board[nx][ny] != bw * -1:
                 continue
-            if self._has_my_piece(bw, nx, ny, d[0], d[1]):
+            if self.wassap(bw, nx, ny, d[0], d[1]):
                 directions.append(d)
         return directions
 
-    def _reverse_piece(self, bw, x, y, delta_x, delta_y):
+    def _reverse(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
 
         x += delta_x
@@ -111,20 +111,20 @@ class osero:
             return
 
         self.board[x][y] = bw
-        return self._reverse_piece(bw, x, y, delta_x, delta_y)
+        return self._reverse(bw, x, y, delta_x, delta_y)
 
     def put(self, x, y, bw):
         assert bw in (BLACK, WHITE)
-        directions = self.reversible_directions(bw, x, y)
+        directions = self.reversible(bw, x, y)
         if len(directions) == 0:
             return False
         self.board[x][y] = bw
         for delta in directions:
-            self._reverse_piece(bw, x, y, delta[0], delta[1])
+            self._reverse(bw, x, y, delta[0], delta[1])
         return True
 
 
-    def _calc_score(self, bw, weight_matrix):
+    def _calc(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
         my_score = 0
         against_score = 0
@@ -136,7 +136,7 @@ class osero:
                     against_score += weight_matrix[i][j]
         return my_score - against_score
 
-    def find_best_position(self, bw, weight_matrix):
+    def thebest(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
 
         next_positions = {}
@@ -145,7 +145,7 @@ class osero:
                 reversi = osero(self)
                 if reversi.put(i, j, bw):
                     next_positions.setdefault(
-                        reversi._calc_score(bw, weight_matrix), []
+                        reversi._calc(bw, weight_matrix), []
                     ).append((i, j))
         if next_positions:
             next_position = random.choice(next_positions[max(next_positions)])
@@ -160,7 +160,7 @@ BLACK_MARK = 'M'
 WHITE_MARK = 'S'
 
 
-def print_board(reversi):
+def board(reversi):
     print('\n   a b c d e f g h \n  +-+-+-+-+-+-+-+-+')
     for i, row in enumerate(reversi.board):
         print(' %d|' % (i+1), end='')
@@ -170,7 +170,7 @@ def print_board(reversi):
     print()
 
 
-def input_level():
+def level():
     while True:
         s = input('Level "1" or "2" ?')
         if s == '':
@@ -192,7 +192,7 @@ def input_position(player):
     return x, y
 
 
-def print_position(player, xy):
+def position(player, xy):
     if xy is None:
         print('{}: skip'.format(BLACK_MARK if player == BLACK else WHITE_MARK))
     else:
@@ -202,9 +202,9 @@ def print_position(player, xy):
             chr(xy[0]+49),
         ))
 
-def start_game():
+def go():
     reversi = osero()
-    level = input_level()
+    level = level()
     if level == 2:
         weight_matrix = map1
     else:
@@ -216,18 +216,18 @@ def start_game():
         reversi.count(BLACK) == 0 or
         reversi.count(WHITE) == 0
     ):
-        print_board(reversi)
+        board(reversi)
         xy = input_position(player)
         while xy and not reversi.put(xy[0], xy[1], player):
             xy = input_position(player)
 
-        print_board(reversi)
-        xy = reversi.find_best_position(player * -1, weight_matrix)
+        board(reversi)
+        xy = reversi.thebest(player * -1, weight_matrix)
         if xy:
             reversi.put(xy[0], xy[1], player * -1)
-        print_position(player * -1, xy)
+        position(player * -1, xy)
 
-    print_board(reversi)
+    board(reversi)
     if reversi.count(player) > reversi.count(player * -1):
         print('You win!')
     elif reversi.count(player) < reversi.count(player * -1):
@@ -235,7 +235,7 @@ def start_game():
 
 
 if __name__ == "__main__":
-    start_game()
+    go()
 #-------------------------------------------------------------------------------
     """
     testtest

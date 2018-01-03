@@ -4,65 +4,49 @@
  - This's a memo like a for output & memory
 
 #### My introduce
- - i'm *** 
- - usually I went to anywhere but alone huh
  - if you dont understand japanese style, you don't care about me
- - I just live in HCMC now. But I was born in JP
- - anytime I can meet someone 
+ - I just live in HCMC now. But I was born in JP 
 -----
 ### Memo(It's a snippet like how to every tech tool)
 #### How to use git?(like a snippet)
  - change to branch
    - git checkout
- - 前回コミット(HEAD)からの差分
+ - HEAD
    - git diff HEAD
- - ステージングエリアとHEADとの差分
    - git diff --staged
    - git diff --cached
- - 自分がしたコミットを確認
-   - git log -p --name-only (修正したファイル一覧)
-   - git log -p (変更内容差分, ファイル名を引数で渡すと単体で指定可)
-   - git log -p --ignore-space-change (スペースや改行で差分が見づらいとき)
- - masterブランチを最新に更新(masterブランチなう)
+ - log
+   - git log -p --name-only 
+   - git log -p 
+   - git log -p --ignore-space-change 
+ - master
    - git  pull --rebase origin master
- - 修正したソースコードを再度コミットしてプッシュ
+ - easy
    - git add ***
    - git commit -m "***"
    - git push origin add-***
  - check into log
    - git log
    - git --no-pager log
- - 修正したファイルをすべてaddしたいなら、-u が便利
+ - -u 
    - git add -u
- - コミット詳細
+ - bio
    - git show 
  - delate to file
    - git rm ***
- - masterの内容を開発ブランチに反映
+ - pull
    - git pull origin master
- - branchを作る上と同時にそこへcheckout
+ - checkout
    - git checkout -b [branch name] origin/master
  - branch snippet
    - git checkout -b [branch name] origin/master
    - git branch -a（for check)
-     - まだmasterに何もない場合は何か作成
-     - 既にmasterに何かあってpullしたい(git pull origin master)
-   - git add *** 
-   - git commit
-   - git push origin [branch name]
-   - git branch -a（for check)
-   - git checkout master
-   - git merge test
-   - git push
- - これ分からん
    - git checkout -b *** origin/master
- - githubであらかじめリポジトリを作っておいて、そこをpush先に指定。
-   - git remote add origin [url of リポジトリ] 
+   - git remote add origin [url of repositorie] 
  - git commit → vim
    - u : like a cntl+z
    - :wq : finish(easy)
  - sample words for commit -m
-   - https://anond.hatelabo.jp/20160725092419
    - Add ~
    - Fix ~
    - Update	~
@@ -92,13 +76,6 @@
 
 ##### How to use spyder?
  - for python
-
-##### How to Oauth<br>
- - リクエストトークンを発行
- - リクエストトークンを使ってアプリ認証画面に飛ばす
- - コールバックURLでアクセストークンを取得
- - アクセストークンを使ってAPIを呼ぶ
-
 
 ##### En snippet(like a buzz words)
  - jesus crist

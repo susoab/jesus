@@ -93,6 +93,7 @@ class Reversi:
             return True
         return self.itsmee(bw, x, y, delta_x, delta_y)
 
+#got it 
     def reversible_directions(self, bw, x, y):
         assert bw in (BLACK, WHITE)
 
@@ -111,6 +112,7 @@ class Reversi:
                 directions.append(d)
         return directions
 
+#got it 
     def _reverse_piece(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
 
@@ -124,6 +126,7 @@ class Reversi:
         self.board[x][y] = bw
         return self._reverse_piece(bw, x, y, delta_x, delta_y)
 
+#got it 
     def put(self, x, y, bw):
         assert bw in (BLACK, WHITE)
         directions = self.reversible_directions(bw, x, y)
@@ -134,7 +137,7 @@ class Reversi:
             self._reverse_piece(bw, x, y, delta[0], delta[1])
         return True
 
-
+#got it 
     def _calc_score(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
         my_score = 0
@@ -147,6 +150,7 @@ class Reversi:
                     against_score += weight_matrix[i][j]
         return my_score - against_score
 
+#got it 
     def find_best_position(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
 

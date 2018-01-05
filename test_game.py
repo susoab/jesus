@@ -23,12 +23,11 @@ import itertools
 import functools
 import operator
 
-
 EMPTY = 0
 BLACK = -1
 WHITE = 1
 
-#go ahead
+#Go ahead
 class Reversi:
     def __init__(self, orig=None):
         self.board = []

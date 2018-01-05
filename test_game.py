@@ -15,36 +15,19 @@
 　　　(_／
 
 """
+#just making test like a name of reverci
+
+import sys
 import random
 import itertools
+import functools
+import operator
 
 EMPTY = 0
 BLACK = -1
 WHITE = 1
 
-map1 = [
-    [120, -20, 20, 5, 5, 20, -20, 120],
-    [-20, -40, -5, -5, -5, -5, -40, -20],
-    [20, -5, 15, 3, 3, 15, -5, 20],
-    [5, -5, 3, 3, 3, 3, -5, 5],
-    [5, -5, 3, 3, 3, 3, -5, 5],
-    [20, -5, 15, 3, 3, 15, -5, 20],
-    [-20, -40, -5, -5, -5, -5, -40, -20],
-    [120, -20, 20, 5, 5, 20, -20, 120],
-]
-
-
-map2 = [
-    [30, -12, 0, -1, -1, 0, -12, 30],
-    [-12, -15, -3, -3, -3, -3, -15, -12],
-    [0, -3, 0, -1, -1, 0, -3, 0],
-    [-1, -3, -1, -1, -1, -1, -3, -1],
-    [-1, -3, -1, -1, -1, -1, -3, -1],
-    [0, -3, 0, -1, -1, 0, -3, 0],
-    [-12, -15, -3, -3, -3, -3, -15, -12],
-    [30, -12, 0, -1, -1, 0, -12, 30],
-]
-
+#Go ahead
 class Reversi:
     def __init__(self, orig=None):
         self.board = []
@@ -53,14 +36,14 @@ class Reversi:
 
         self.board[3][3] = self.board[4][4] = BLACK
         self.board[4][3] = self.board[3][4] = WHITE
-
-        # copy constructor
+        
         if orig:
             assert isinstance(orig, Reversi)
             for i in range(8):
                 for j in range(8):
                     self.board[i][j] = orig.board[i][j]
 
+#return n
     def count(self, bwe):
         assert bwe in (BLACK, WHITE, EMPTY)
         n = 0
@@ -70,7 +53,8 @@ class Reversi:
                     n += 1
         return n
 
-    def _has_my_piece(self, bw, x, y, delta_x, delta_y):
+#my place 
+    def itsmee(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
         assert delta_x in (-1, 0, 1)
         assert delta_y in (-1, 0, 1)
@@ -81,8 +65,9 @@ class Reversi:
             return False
         if self.board[x][y] == bw:
             return True
-        return self._has_my_piece(bw, x, y, delta_x, delta_y)
+        return self.itsmee(bw, x, y, delta_x, delta_y)
 
+#got it 
     def reversible_directions(self, bw, x, y):
         assert bw in (BLACK, WHITE)
 
@@ -97,10 +82,11 @@ class Reversi:
             ny = y + d[1]
             if nx < 0 or nx > 7 or ny < 0 or ny > 7 or self.board[nx][ny] != bw * -1:
                 continue
-            if self._has_my_piece(bw, nx, ny, d[0], d[1]):
+            if self.itsmee(bw, nx, ny, d[0], d[1]):
                 directions.append(d)
         return directions
 
+#got it 
     def _reverse_piece(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
 
@@ -114,6 +100,7 @@ class Reversi:
         self.board[x][y] = bw
         return self._reverse_piece(bw, x, y, delta_x, delta_y)
 
+#got it 
     def put(self, x, y, bw):
         assert bw in (BLACK, WHITE)
         directions = self.reversible_directions(bw, x, y)
@@ -124,7 +111,7 @@ class Reversi:
             self._reverse_piece(bw, x, y, delta[0], delta[1])
         return True
 
-
+#got it 
     def _calc_score(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
         my_score = 0
@@ -137,6 +124,7 @@ class Reversi:
                     against_score += weight_matrix[i][j]
         return my_score - against_score
 
+#got it 
     def find_best_position(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
 
@@ -153,14 +141,39 @@ class Reversi:
         else:
             next_position = None
         return next_position
+#-------------------------------------------------------------------------------#
 
+map1 = [
+    [120, -20, 20, 5, 5, 20, -20, 120],
+    [-20, -40, -5, -5, -5, -5, -40, -20],
+    [20, -5, 15, 3, 3, 15, -5, 20],
+    [5, -5, 3, 3, 3, 3, -5, 5],
+    [5, -5, 3, 3, 3, 3, -5, 5],
+    [20, -5, 15, 3, 3, 15, -5, 20],
+    [-20, -40, -5, -5, -5, -5, -40, -20],
+    [120, -20, 20, 5, 5, 20, -20, 120],
+]
+
+#I should change like a delete one under map or + - .
+
+map2 = [
+    [30, -12, 0, -1, -1, 0, -12, 30],
+    [-12, -15, -3, -3, -3, -3, -15, -12],
+    [0, -3, 0, -1, -1, 0, -3, 0],
+    [-1, -3, -1, -1, -1, -1, -3, -1],
+    [-1, -3, -1, -1, -1, -1, -3, -1],
+    [0, -3, 0, -1, -1, 0, -3, 0],
+    [-12, -15, -3, -3, -3, -3, -15, -12],
+    [30, -12, 0, -1, -1, 0, -12, 30],
+]
+#can change as now 
 
 #-------------------------------------------------------------------------------#
 
-BLACK_MARK = 'M'
-WHITE_MARK = 'S'
+BLACK_MARK = 'M' #me
+WHITE_MARK = 'S' #cp
 
-
+#making board image on terminal
 def print_board(reversi):
     print('\n   a b c d e f g h \n  +-+-+-+-+-+-+-+-+')
     for i, row in enumerate(reversi.board):
@@ -170,29 +183,29 @@ def print_board(reversi):
         print('\n  +-+-+-+-+-+-+-+-+')
     print()
 
-
+#start~
 def input_level():
     while True:
-        s = input('Level "1" or "2" ?')
+        s = input('Hows it going dude! Plz push "ENTER"')
         if s == '':
             return 1
-        if s in ('1', '2'):
+        if s in ('enter'):
             return int(s)
 
-
+#like a me
 def input_position(player):
     while True:
-        s = input('{}? [a-h][1-8]'.format(BLACK_MARK if player == BLACK else WHITE_MARK))
-        if s == '' or (len(s) == 2 and s[0] in list('abcdefgh') and s[1] in list('12345678')):
+        s = input('{}? [a~h][1~8]'.format(BLACK_MARK if player == BLACK else WHITE_MARK))
+        if s == 'enter' or (len(s) == 2 and s[0] in list('abcdefgh') and s[1] in list('12345678')):
             break
     if s == '':
         return None
+#upper is into 'enter'. its mean like a if i push enter or typo, return
 
     y, x = ord(s[0]) - 97, ord(s[1]) - 49
-    #print('input_position=', x, y)
     return x, y
 
-
+#skip
 def print_position(player, xy):
     if xy is None:
         print('{}: skip'.format(BLACK_MARK if player == BLACK else WHITE_MARK))
@@ -203,10 +216,11 @@ def print_position(player, xy):
             chr(xy[0]+49),
         ))
 
+#starrrrrt
 def start_game():
     reversi = Reversi()
     level = input_level()
-    if level == 2:
+    if level == '':
         weight_matrix = map1
     else:
         weight_matrix = map2
@@ -234,11 +248,7 @@ def start_game():
     elif reversi.count(player) < reversi.count(player * -1):
         print('You lose!')
 
-
+#doneee
 if __name__ == "__main__":
     start_game()
-#-------------------------------------------------------------------------------
-    """
-    testtest
-    """
-    
+#----------------test------------------#

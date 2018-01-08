@@ -15,7 +15,7 @@
 　　　(_／
 
 """
-#just making test like a name of reverci
+#just make a test like a name of reverci
 
 import sys
 import random
@@ -252,4 +252,5 @@ def start_game():
 if __name__ == "__main__":
     start_game()
     
+#this is(__main__ & __name__) the "Python3" hah  
 #-------------------------------------------------------------------------------#

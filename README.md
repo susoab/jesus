@@ -7,6 +7,7 @@
  - if you dont understand japanese style, you don't care about me 
  - I just live in HCMC now. But I was born in Japan 
 -----
+
 ### Memo(It's a snippet like how to every tech tool)
 #### How to use git?(like a snippet)
  - change to branch

@@ -1,11 +1,11 @@
 ## Hello guys
- - Im looking foward to meeting with you~ 
+ - yo yo wazzapp Im looking foward to meeting with you 
 #### What's this & for what? 
  - This's a memo like a for output & memory
 
 #### My introduce
- - if you dont understand japanese style, you don't care about me
- - I just live in HCMC now. But I was born in JP 
+ - if you dont understand japanese style, you don't care about me 
+ - I just live in HCMC now. But I was born in Japan 
 -----
 ### Memo(It's a snippet like how to every tech tool)
 #### How to use git?(like a snippet)
@@ -72,7 +72,7 @@
  - command: jupyter notebook + enter
  - how to up graph?: write markdown
  - finish: control + c
- - tt
+ - $$(it's mean like a ...)
 
 ##### How to use spyder?
  - for python

@@ -200,7 +200,7 @@ def input_position(player):
             break
     if s == '':
         return None
-#upper is into 'enter'. its mean like a if i push enter or typo, return
+#upper is into 'enter'. its mean like a if i push enter or typo, it have to return.
 
     y, x = ord(s[0]) - 97, ord(s[1]) - 49
     return x, y

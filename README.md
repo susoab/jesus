@@ -1,5 +1,5 @@
 ## Hello guys
- - yo yo wazzapp Im looking foward to meeting with you 
+ - yoooo wazzap how's it going? Im looking foward to meeting with you hah sorry I just kidding cuz I never see you lol
 #### What's this & for what? 
  - This's a memo like a for output & memory
 
@@ -88,7 +88,7 @@
  - learn(should buy some book or ass dig)
  - I have to get this one cuz wanna get more ass skill
 
-##### GraphQLについて
+##### GraphQL
  - GraphQLはAPIへの問い合わせ言語(apiのインターフェース)
  - クライアントとサーバー間のデータのやり取りを容易に記述するためのクエリ言語
  - GraphQLはFacebookにより開発されたオープンソースの言語です。API作成の仕組みとしてRESTの代わりに使える
@@ -97,7 +97,7 @@
    - GraphQLはRESTとは違った方法でAPI提供者とデータのやりとりを行うことを可能とする
  - ユーザーは各社のAPIを利用する事で、各サービスのデータを検索したりサイトで利用したり出来るようになります
 
-##### REST(REpresentational State Transferの略称)(GraphQLに似たもの？)について
+##### REST(REpresentational State Transfer)
  - REST(REpresentational State Transfer)はWebサービスの設計モデル
  - Web APIの仕様を決める上でのアーキテクチャスタイル、つまり基本的な考え方
  - アーキテクチャスタイルというのは、日本語では「建築様式」と訳せますが、見方を変えるとそれはアーキテクチャに対する制約を意味する

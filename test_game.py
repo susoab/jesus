@@ -175,12 +175,12 @@ WHITE_MARK = 'S' #cp
 
 #making board image on terminal
 def print_board(reversi):
-    print('\n   a b c d e f g h \n  +-+-+-+-+-+-+-+-+')
+    print('\n   a b c d e f g h \n  *-*-*-*-*-*-*-*-*')  #\n = (LF）
     for i, row in enumerate(reversi.board):
         print(' %d|' % (i+1), end='')
         for r in row:
             print('{}|'.format({EMPTY: ' ', BLACK: BLACK_MARK, WHITE: WHITE_MARK}[r]), end='')
-        print('\n  +-+-+-+-+-+-+-+-+')
+        print('\n  *-*-*-*-*-*-*-*-*')                   #\n = (LF）
     print()
 
 #start~

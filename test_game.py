@@ -27,8 +27,8 @@ EMPTY = 0
 BLACK = -1
 WHITE = 1
 
-#Go ahead
-class Reversi:
+#Goooooo
+class S:
     def __init__(self, orig=None):
         self.board = []
         for i in range(8):
@@ -38,7 +38,7 @@ class Reversi:
         self.board[4][3] = self.board[3][4] = WHITE
         
         if orig:
-            assert isinstance(orig, Reversi)
+            assert isinstance(orig, S)
             for i in range(8):
                 for j in range(8):
                     self.board[i][j] = orig.board[i][j]
@@ -131,7 +131,7 @@ class Reversi:
         next_positions = {}
         for i in range(8):
             for j in range(8):
-                reversi = Reversi(self)
+                reversi = S(self)
                 if reversi.put(i, j, bw):
                     next_positions.setdefault(
                         reversi._calc_score(bw, weight_matrix), []
@@ -218,7 +218,7 @@ def print_position(player, xy):
 
 #starrrrrt
 def start_game():
-    reversi = Reversi()
+    reversi = S()
     level = input_level()
     if level == '':
         weight_matrix = map1

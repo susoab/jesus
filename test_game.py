@@ -217,8 +217,9 @@ def print_position(player, xy):
         ))
 
     if player is None:
-        print('{}: skip')
+        print('{}: skip') 
 
+#maybe its a misunderstand but I'll try that
 
 #starrrrrt
 def start_game():

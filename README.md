@@ -1,5 +1,5 @@
 ## Hello guys
- - yoooo wazzap how's it going? Im looking foward to meeting with you haha. 
+ - yoooo wazzap how's it going? Im looking foward to meeting with you haha. 
  - But sorry It's just kidding cuz I never see you lol
 #### What's this & for what? 
  - This's a memo like a for output & memory
@@ -139,7 +139,7 @@ api_token = '***'
 base_url = 'https://api.chatwork.com/v2'
  
 room_id = '66869579'
-message = 'wassap wake up right now!!!'
+message = 'wassap wake up right now!!!'
  
 post_message_url = '{}/rooms/{}/messages'.format(base_url, room_id)
 headers = { 'X-ChatWorkToken': api_token }

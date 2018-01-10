@@ -1,5 +1,5 @@
 ## Hello guys
- - yoooo wazzap how's it going? Im looking foward to meeting with you hah sorry I just kidding cuz I never see you lol
+ - yoooo wazzap how's it going? Im looking foward to meeting with you hah. But sorry I'm just kidding cuz I never see you lol
 #### What's this & for what? 
  - This's a memo like a for output & memory
 

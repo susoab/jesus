@@ -216,6 +216,10 @@ def print_position(player, xy):
             chr(xy[0]+49),
         ))
 
+    if player is None:
+        print('{}: skip')
+
+
 #starrrrrt
 def start_game():
     reversi = S()

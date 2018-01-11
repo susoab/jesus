@@ -141,6 +141,7 @@ class S:
         else:
             next_position = None
         return next_position
+
 #-------------------------------------------------------------------------------#
 
 map1 = [
@@ -220,6 +221,8 @@ def print_position(player, xy):
         print('{}: skip') 
 
 #maybe its a misunderstand but I'll try that
+
+#done
 
 #starrrrrt
 def start_game():

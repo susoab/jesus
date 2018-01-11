@@ -68,7 +68,7 @@ class S:
         return self.itsmee(bw, x, y, delta_x, delta_y)
 
 #got it 
-    def reversible_directions(self, bw, x, y):
+    def supdirections(self, bw, x, y):
         assert bw in (BLACK, WHITE)
 
         directions = []
@@ -87,32 +87,30 @@ class S:
         return directions
 
 #got it 
-    def _reverse_piece(self, bw, x, y, delta_x, delta_y):
+    def lol(self, bw, x, y, delta_x, delta_y):
         assert bw in (BLACK, WHITE)
-
         x += delta_x
         y += delta_y
         assert self.board[x][y] in (BLACK, WHITE)
-
+#if it isnt snipet I should delete it 
         if self.board[x][y] == bw:
             return
-
         self.board[x][y] = bw
-        return self._reverse_piece(bw, x, y, delta_x, delta_y)
+        return self.lol(bw, x, y, delta_x, delta_y)
 
 #got it 
     def put(self, x, y, bw):
         assert bw in (BLACK, WHITE)
-        directions = self.reversible_directions(bw, x, y)
+        directions = self.supdirections(bw, x, y)
         if len(directions) == 0:
             return False
         self.board[x][y] = bw
         for delta in directions:
-            self._reverse_piece(bw, x, y, delta[0], delta[1])
+            self.lol(bw, x, y, delta[0], delta[1])
         return True
 
 #got it 
-    def _calc_score(self, bw, weight_matrix):
+    def wazzap(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
         my_score = 0
         against_score = 0
@@ -125,7 +123,7 @@ class S:
         return my_score - against_score
 
 #got it 
-    def find_best_position(self, bw, weight_matrix):
+    def thebestass(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
 
         next_positions = {}
@@ -134,7 +132,7 @@ class S:
                 reversi = S(self)
                 if reversi.put(i, j, bw):
                     next_positions.setdefault(
-                        reversi._calc_score(bw, weight_matrix), []
+                        reversi.wazzap(bw, weight_matrix), []
                     ).append((i, j))
         if next_positions:
             next_position = random.choice(next_positions[max(next_positions)])
@@ -175,7 +173,7 @@ BLACK_MARK = 'M' #me
 WHITE_MARK = 'S' #cp
 
 #making board image on terminal
-def print_board(reversi):
+def printontheboard(reversi):
     print('\n   a b c d e f g h \n  *-*-*-*-*-*-*-*-*')  #\n = (LF）
     for i, row in enumerate(reversi.board):
         print(' %d|' % (i+1), end='')
@@ -185,7 +183,7 @@ def print_board(reversi):
     print()
 
 #start~
-def input_level():
+def intolevel():
     while True:
         s = input('Hows it going dude! Plz push "ENTER"')
         if s == '':
@@ -194,7 +192,7 @@ def input_level():
             return int(s)
 
 #like a me
-def input_position(player):
+def topoftheposition(player):
     while True:
         s = input('{}? [a~h][1~8]'.format(BLACK_MARK if player == BLACK else WHITE_MARK))
         if s == 'enter' or (len(s) == 2 and s[0] in list('abcdefgh') and s[1] in list('12345678')):
@@ -207,7 +205,7 @@ def input_position(player):
     return x, y
 
 #skip
-def print_position(player, xy):
+def putpositionontheterminal(player, xy):
     if xy is None:
         print('{}: skip'.format(BLACK_MARK if player == BLACK else WHITE_MARK))
     else:
@@ -225,9 +223,9 @@ def print_position(player, xy):
 #done
 
 #starrrrrt
-def start_game():
+def yoyowassapdude():
     reversi = S()
-    level = input_level()
+    level = intolevel()
     if level == '':
         weight_matrix = map1
     else:
@@ -239,18 +237,18 @@ def start_game():
         reversi.count(BLACK) == 0 or
         reversi.count(WHITE) == 0
     ):
-        print_board(reversi)
-        xy = input_position(player)
+        printontheboard(reversi)
+        xy = topoftheposition(player)
         while xy and not reversi.put(xy[0], xy[1], player):
-            xy = input_position(player)
+            xy = topoftheposition(player)
 
-        print_board(reversi)
-        xy = reversi.find_best_position(player * -1, weight_matrix)
+        printontheboard(reversi)
+        xy = reversi.thebestass(player * -1, weight_matrix)
         if xy:
             reversi.put(xy[0], xy[1], player * -1)
-        print_position(player * -1, xy)
+        putpositionontheterminal(player * -1, xy)
 
-    print_board(reversi)
+    printontheboard(reversi)
     if reversi.count(player) > reversi.count(player * -1):
         print('You win!')
     elif reversi.count(player) < reversi.count(player * -1):
@@ -258,7 +256,7 @@ def start_game():
 
 #doneee
 if __name__ == "__main__":
-    start_game()
+    yoyowassapdude()
     
-#this is(__main__ & __name__) the "Python3" hah  
+#__main__ & __name__ is like a only  "Python3" hah  
 #-------------------------------------------------------------------------------#

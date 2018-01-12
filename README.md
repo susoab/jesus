@@ -1,6 +1,7 @@
 ## Hello guys
  - yoooo wazzap how's it going? Im looking foward to meeting with you haha. 
  - But sorry It's just kidding cuz I never see you lol
+ - its mean like a 
 #### What's this & for what? 
  - This's a memo like a for output & memory
 

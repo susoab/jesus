@@ -260,4 +260,5 @@ if __name__ == "__main__":
     
 #__main__ & __name__ is like a only  "Python3" hah  
 #finaly I gatta make python3 + ML or DL in mmy knowledge maybe after harf year 
-#-------------------------------------------------------------------------------#
+#----------------------------------------------str, int キャストしなければならない---------------------------------#
+#"--"→よくあるやーつ

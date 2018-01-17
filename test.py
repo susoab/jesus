@@ -1,12 +1,7 @@
-import numpy as np
-import matplotlib.pyplot as plt #データの作成x = np.arange(0, 6, 0.1) # 0から6まで0.1刻みで生成
-y1 = np.sin(x)
-y2 = np.cos(x)#グラフの描画
-
-plt.plot(x, y1, label="sin")
-plt.plot(x, y2, linestyle = "--", label="cos") #破線で描画
-plt.xlabel("x") # x軸のラベル
-plt.ylabel("y") # y軸のラベル
-plt.title('sin & cos') #タイトル
-plt.legend()
-plt.show()
+def AND(x1, x2):
+    w1, w2, theta = 0.5, 0.5, 0.7
+    tmp = x1*w1 + x2*w2
+    if tmp <= theta:
+        return 0
+    elif tmp > theta:
+        return 1

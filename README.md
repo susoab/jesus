@@ -80,29 +80,22 @@
 ##### How to use spyder?
  - for python
 
-##### En snippet(like a buzz words)
- - jesus crist
- - kinda wanna gonna gatta
- - whatever whenever however 
- - how's going on 
-
 ##### how to get AWS record(maybe until afret a year)
- - learn(should buy some book or ass dig)
- - I have to get this one cuz wanna get more ass skill
+ - learnnn
 
 ##### GraphQL
  - GraphQLはAPIへの問い合わせ言語(apiのインターフェース)
  - クライアントとサーバー間のデータのやり取りを容易に記述するためのクエリ言語
- - GraphQLはFacebookにより開発されたオープンソースの言語です。API作成の仕組みとしてRESTの代わりに使える
+ - GraphQLはFacebookにより開発されたオープンソースの言語。API作成の仕組みとしてRESTの代わりに使える
  - GraphQLの定義に従ってクエリを書き, サーバーと通信を取ることでJSONになって戻る
  - APIといえばRESTfulなendpointを経由してリクエストを送ることが一般化
    - GraphQLはRESTとは違った方法でAPI提供者とデータのやりとりを行うことを可能とする
- - ユーザーは各社のAPIを利用する事で、各サービスのデータを検索したりサイトで利用したり出来るようになります
+ - ユーザーは各社のAPIを利用する事で、各サービスのデータを検索したりサイトで利用したり出来る
 
 ##### REST(REpresentational State Transfer)
  - REST(REpresentational State Transfer)はWebサービスの設計モデル
  - Web APIの仕様を決める上でのアーキテクチャスタイル、つまり基本的な考え方
- - アーキテクチャスタイルというのは、日本語では「建築様式」と訳せますが、見方を変えるとそれはアーキテクチャに対する制約を意味する
+ - アーキテクチャスタイルというのは、日本語では「建築様式」、見方を変えるとそれはアーキテクチャに対する制約を意味する
  - RESTなWebサービスは、そのサービスのURIにHTTPメソッドでアクセスすることでデータの送受信を行う
  - RESTではこのようにデータとして扱いやすいJSON形式が一般的に利用されている
  - APIとして提供しているリソースを取得(GET)、リソースの登録(POST)、更新(PUT/PATCH)、削除(DELETE)などがRESTにより実現できる

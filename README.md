@@ -155,4 +155,6 @@ print(response)
    - def sigmoid
    - def relu
 
-
+##### I just read this one 
+ - oreilly Deep Learning
+ - this one is like a learn to ML...try anyway 

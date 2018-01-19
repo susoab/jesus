@@ -122,7 +122,7 @@ class S:
                     against_score += weight_matrix[i][j]
         return my_score - against_score
 
-#got it 
+#got it
     def thebestass(self, bw, weight_matrix):
         assert bw in (BLACK, WHITE)
 

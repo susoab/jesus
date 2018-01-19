@@ -145,3 +145,14 @@ print(response)
 
 ##### How to ML
  - actually they use tool like a tensole flow, pandas,, something 
+ 
+ - import numpy as np
+   - def AND
+   - def OR
+   - def NAND
+   - def XOR
+   - def step_funcution
+   - def sigmoid
+   - def relu
+
+

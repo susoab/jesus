@@ -157,4 +157,7 @@ print(response)
 
 ##### I just read this one 
  - oreilly Deep Learning
- - this one is like a learn to ML...try anyway 
+ - this one is like a learn to ML...try anyway
+ - it's like a not master cuz easy fo me
+ - but math is so difficult...
+ - https://wwws.kobe-c.ac.jp/deguchi/sc180/logic/gate.html

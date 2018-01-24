@@ -162,29 +162,30 @@ print(response)
  - but math is so difficult...
  - https://wwws.kobe-c.ac.jp/deguchi/sc180/logic/gate.html
 
- ##### memo
- - how to be anarchis
- - today is the last day of the lest of our f**kin life
- - hype crisis
- - "What is Geek And Nerd?” What the fashion industry really thinks of our impresario.
- - We’ll be the strongest of all like a top of the top
- - Some people feel the rain. Others just get wet. We wanna feel the rain anytime
- - Defeat? Lose? We(or I) don’t recognize the meaning of the word.
- - Before you point your fingers, make sure your hands are clean.
- - If you don’t learn to something you don’t deserve to win, anymore
- - Two wrongs don’t make a right. I wanna say someone about it. 
- - ”Fortune favors the bold.” cuz we have to do like a try anyway
- - You can’t make an feature without breaking a few your mind.
- - "Actions speak louder than words."　
- - "Easy get something, easy lost anytime”
- - ”Badass things are in the eye of the beholder.”
- - ”Everyone can’t judge a face to face.”
- - Dressing is a way of life.
- - In my knowledge a friend to all is a friend to none hah.
+ ##### memo
+ - how to be anarchis（
+ - today is the last day of the lest of our f**kin life（クソみたいな人生の中で休むのは今日で終わり的な）
+ - hype crisis（やばい）
+ - "What is Geek And Nerd?” What the fashion industry really thinks of our impresario.（これに関しては中を変更するべき）
+ - We’ll be the strongest of all like a top of the top（私たちは一番強い存在になるよ（mediaで））
+ - Some people feel the rain. Others just get wet. We wanna feel the rain anytime（いつでも特別な感性を持っていたいという意）
+ - Defeat? Lose? We(or I) don’t recognize the meaning of the word.（負けなんて知らん）
+ - Before you point your fingers, make sure your hands are clean.（批判する前にお前の身を正せ的な）
+ - If you don’t input to something you don’t deserve to win, anymore.（とりあえずインプットしまくれ、そうでなければこれ以上勝つことはない）
+ - Two wrongs don’t make a right. I wanna say someone about it. （他人が悪事をしてもしてはいけない）
+ - Fortune favors the bold. cuz we have to do like a try anyway. go geek.（頑張れば絶対幸運が味方する的な、いけgeeeek）
+ - You can’t make an feature without breaking a few your mind.（型を破らなければ未来はない的な）
+ - Actions speak louder than words.　（言葉より行動）
+ - Easy get something, easy lost anytime.（簡単に得るものは簡単に失う）
+ - Badass things are in the eye of the beholder.（内面が出るよ的な）
+ - Everyone can’t judge a face to face.（顔を見ただけでは判断できないor見て判断してはいけない）
+ - Dressing is a way of life.（服装は自分を造る的な）
+ - In my knowledge a friend to all is a friend to none hah.（友達多いというやつほど友達いない）
  - Hate to like a sucker (like a lair)
- - make a fast buck
- - You can cram it up your ass
- - We really like to act of darkness
+ - make a fast buck. （手っ取り早く金稼ぐ）
+ - You can cram it up your ass（糞食らえ的な）
+ - What crawled up your ass?（なにイライラしてんの？的な）
+ - We really like to act of darkness.（俺らはセックスが好き的な）
  - How’s your father (like a dick or pussy)
  - friend with benefits (like a fuck buddy)
  - I wanna get facts of life more than now

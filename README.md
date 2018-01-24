@@ -161,3 +161,32 @@ print(response)
  - it's like a not master cuz easy fo me
  - but math is so difficult...
  - https://wwws.kobe-c.ac.jp/deguchi/sc180/logic/gate.html
+
+ ##### memo
+ - how to be anarchis
+ - today is the last day of the lest of our f**kin life
+ - hype crisis
+ - "What is Geek And Nerd?” What the fashion industry really thinks of our impresario.
+ - We’ll be the strongest of all like a top of the top
+ - Some people feel the rain. Others just get wet. We wanna feel the rain anytime
+ - Defeat? Lose? We(or I) don’t recognize the meaning of the word.
+ - Before you point your fingers, make sure your hands are clean.
+ - If you don’t learn to something you don’t deserve to win, anymore
+ - Two wrongs don’t make a right. I wanna say someone about it. 
+ - ”Fortune favors the bold.” cuz we have to do like a try anyway
+ - You can’t make an feature without breaking a few your mind.
+ - "Actions speak louder than words."　
+ - "Easy get something, easy lost anytime”
+ - ”Badass things are in the eye of the beholder.”
+ - ”Everyone can’t judge a face to face.”
+ - Dressing is a way of life.
+ - In my knowledge a friend to all is a friend to none hah.
+ - Hate to like a sucker (like a lair)
+ - make a fast buck
+ - You can cram it up your ass
+ - We really like to act of darkness
+ - How’s your father (like a dick or pussy)
+ - friend with benefits (like a fuck buddy)
+ - I wanna get facts of life more than now
+ - Netflix and chill (hahahaha)
+ - Actually someone was way too uptigh.

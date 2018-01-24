@@ -1,0 +1,60 @@
+## BEST SWIMMING POOLS IN SAIGON
+ - Thao Dien Village
+   - address: 189-197, 197/1 Nguyen Van Huong, District 2 | 028 3744 2222 | 
+   - Hours: 7:00 a.m. to 8:00 p.m.
+   - Day Pass: VND295,000 during “peak season” (dry season), and VND235,000 during the off-peak season.
+ - Victory Hotel
+   - 14 Vo Van Tan, District 3 | 028 3930 4989 | victoryhotel.com.vn
+   - Pool Hours: 6 a.m. to 10 p.m.
+   - Day Pass: VND60,000, which includes access to the gym
+ - Le Méridien Saigon
+   - 3C Ton Duc Thang Street, District 1 | 028 6263 6688 | 
+   - Hours: 6 a.m. to 10 p.m.
+   - Day Pass: VND490,000, which includes access to the sauna, gym and steam room.
+ - Intercontinental Asiana Saigon
+   - Corner of Hai Ba Trung & Le Duan, District 1 | 028 3520 9999 | 
+   - Hours: 6 a.m to 9 p.m.
+   - Day Pass: VND520,000 for adults and VND312,000 for children under 16
+ - SILA Urban Living
+   - 21 Ngo Thoi Nhiem, District 3 | 028 3930 0800 | silaliving.com
+   - Hours: 8 a.m. to 5 p.m.
+   - Day Pass: VND300,000 per adult to use the pool, with one child allowed in free of charge. VND500,000 will give you full access to the pool, jacuzzi, steam room and sauna; VND600,000 will give you access to the gym on top of that.
+ - Lotte Legend Hotel
+   - 2A-4A Ton Duc Thang, District 1 | 028 3823 3333 | lottehotel.com
+   - Hours: 6 a.m. to 10 p.m.
+   - Day Pass: VND452,000 for adults, VND252,000 for children. Adults can use the pool, gym, sauna and steam room for VND578,000.
+ - Renaissance Riverside Hotel
+   - 8-15 Ton Duc Thang, District 1 | 028 3822 0033 |
+   - Hours: 6 a.m. to 6 p.m.
+   - Day Pass: VND350,000 for adults, and half the price for children under seven. This price will get you full access to the pool, gym, sauna and steam room.
+ - New World Saigon
+   - Hours: 6 a.m. to 10 p.m.
+   - Day Pass: VND350,000 for the pool, and VND500,000 for the pool, sauna and gym.
+ - Van Thanh Pool
+   - 48/10 Dien Bien Phu, Binh Thanh District | 028 3512 3026 | Van Thanh
+   - Pool Hours: 6 a.m. to 8 p.m.
+   - Day Pass: VND70,000 for adults Monday through Friday, and VND80,000 on Saturday and Sunday; VND40,000 for children Monday through Friday, and VND50,000 on Saturday and Sunday
+ - Equatorial
+   - 242 Tran Binh Trong, District 5 | 028 3839 7777 | 
+   - Hours: 6 a.m. to 10 p.m.
+   - Day Pass: Non-guests will shell out VND500,000 for the pool, gym, steam room and sauna. It’s VND300,000 per child.
+ - Sheraton Saigon
+   - 88 Dong Khoi, D1 | 028 3827 2828 | sheratonsaigon.com
+   - Hours: 5:30 a.m. to 10:00 p.m.
+   - Day Pass: VND370,000 for an adult, half price for children under 15. The ticket includes entry to the dry sauna; Sheraton doesn’t have a steam room. For the gym and the pool, it’ll be VND630,000 per day.
+ - Liberty Central Saigon Riverside Hotel
+   - 17 Ton Duc Thang, D1 | 028 3827 1717 | odysseahotels.com/riverside-hotel
+   - Hours: 6 a.m. to 10 p.m.
+   - Day Pass: VND350,000 for adults, free for children under 12. Price includes access to the steam room, sauna and gym.
+ - Riverside Serviced Apartments
+   - 53 Vo Truong Toan, D2 | 028 3744 4111 | riverside-apartments.com
+   - Hours: 7 a.m. to 7 p.m.
+   - Day Pass: VND500,000 per adult. VND800,000 per family (two adults, two children), and an extra VND120,000 per extra child.
+ - The Myst Dong Khoi
+   - 6-8 Ho Huan Nghiep, D1 | 028 3520 3040 | themystdongkhoihotel.com
+   - Hours: 6 a.m. to 8 p.m.
+   - Day Pass: US$15 (yes, they calculate the price in USD) for the pool, sauna, steam bath and one complimentary glass of juice(!). US$20 for the same package, including the gym. Children under 6 get in free.
+
+## badass spot like a rooftop or ..
+ - https://www.citypassguide.com/en/travel/ho-chi-minh-city/daily/news/sorae-restaurant-lounge-celebrates-its-third-birthday
+ - 

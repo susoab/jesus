@@ -58,3 +58,8 @@
 ## badass spot like a rooftop or ..
  - https://www.citypassguide.com/en/travel/ho-chi-minh-city/daily/news/sorae-restaurant-lounge-celebrates-its-third-birthday
  - 
+##### Hair color test
+ - 
+
+ ##### 進捗
+  - 

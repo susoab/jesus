@@ -272,3 +272,22 @@ JavaScriptの有無
  - We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.
  - Does our site allow third-party behavioral tracking?
  - It's also important to note that we do not allow third-party behavioral tracking
+
+##### for digg
+ - コンパイル型プログラミング言語
+ - 発展型言語
+ - オブジェクト指向
+ - 言語、フレームワーク、アーキテクチャ、ライブラリ、ツール、タスクorソースコード管理
+
+##### 進捗
+ - 従業員詳細のbug 
+ - thanhにどれくらいで完了出来るか見積もる
+   - タブ押すごとにではなく、従来通りに社会保険タブを対応出来るか
+   - 必要な部分だけ更新するように
+ - 未だ改善が必要な画面：従業員詳細、my pageプロフィール、申請管理（否認のみ）
+   - それぞれ見積もりを出す
+ - 給与明細の賃金台帳（link非活性にする）
+ - 画面優先度1~6 まで磨きまくる
+ - 使う側で試す（アカウント作成〜1 to 6を細かく触る）
+ - 上記報告を細かくchatで
+ - 17時にまたmtg

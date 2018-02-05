@@ -59,7 +59,7 @@
  - https://www.citypassguide.com/en/travel/ho-chi-minh-city/daily/news/sorae-restaurant-lounge-celebrates-its-third-birthday
  - 
 ##### Hair color test
- - 
+ - making movie or pic or something do it 
 
  ##### 進捗
   - 

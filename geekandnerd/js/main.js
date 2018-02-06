@@ -80,7 +80,7 @@
 		pagemargin : 0,
 		// x and y can have values from 0 to 1 (percentage). If negative then it means the alignment is left and/or top rather than right and/or bottom
 		// so, as an example, if we want our large image to be positioned vertically on 25% of the screen and centered horizontally the values would be x:1,y:-0.25
-		imgPosition : { x : 1, y : 1 },
+		imgPosition : { x : 1, y : -0.25 },
 		onInit : function(instance) { return false; },
 		onResize : function(instance) { return false; },
 		onOpenItem : function(instance, item) { return false; },

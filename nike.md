@@ -1,8 +1,8 @@
 ### 自らの目的と立ち位置
- - Geek And Nerd(以下「我々」といいます)が提供するウェブサイト(https://xxxxxxxxxx.comドメインのウェブサイトを指します)(以下「当サイト」といいます)をご利用いただくお客様は、以下の内容を十分にお読みください。
+ - Geek And Nerd(以下「我々」といいます)が提供するウェブサイト(https://xxxxxxxxxx.com (ドメインのウェブサイトを指します)),(以下「当サイト」といいます)をご利用いただくお客様は、以下の内容を十分にお読みください。
  - ※なお、サイトポリシーに関連する規定類は、予告になく変更させていただく場合がございますので、あらかじめご了承ください。
 ### Our position and Target
- - If you use "Geek And Nerd" (hereinafter referred to as "our site") website (referred to as "our site") provided by "Geek And Nerd" (hereinafter referred to as "our site") Please read the following contents thoroughly.
+ - If you use "Geek And Nerd" (hereinafter referred to as "our site") website (referred to as "our site" https://xxxxxxxxxx.com ) provided by "Geek And Nerd" (hereinafter referred to as "our site") Please read the following contents thoroughly.
  - ※ Regulations related to the site policy are subject to change. Please note.
 ----
 ### セキュリティ/個人情報の利用の目的

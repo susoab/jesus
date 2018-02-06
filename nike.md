@@ -1,5 +1,5 @@
 ### 自らの目的と立ち位置
- - Geek And Nerd(以下「我々」といいます)が提供するウェブサイト(https://xxxxxxxxxx.comドメインのウェブサイトを指します)(以下「当サイト」といいます)をご利用いただくお客様は、以下の内容を十分にお読みください。
+ - Geek And Nerd(以下「我々」といいます)が提供するウェブサイト(https://xxxxxxxxxx.comドメインのウェブサイトを指します)(以下「当サイト」といいます)をご利用いただくお客様は、以下の内容を十分にお読みください。
  - ※なお、サイトポリシーに関連する規定類は、予告になく変更させていただく場合がございますので、あらかじめご了承ください。
 ### Our position and Target
  - If you use "Geek And Nerd" (hereinafter referred to as "our site") website (referred to as "our site") provided by "Geek And Nerd" (hereinafter referred to as "our site") Please read the following contents thoroughly.
@@ -33,11 +33,8 @@
  - It is not the purpose of violating the right.
  - If there is a problem with the content of the article or the posted image etc, the principal should contact us directly by e-mail
  - I'll contact you as soon as I finish reviewing
-----
  - When moving from this site to another site by link or banner or etc, we are not responsible for any information or services provided at the visited site.
-----
  - About contents and information of this site. Although we strive to post as accurate information as possible, misinformation and information may be outdated.
-----
  - Please note that we can not assume any responsibility for damages caused by contents posted on this site.
 ----
 ### JavaScriptの有無

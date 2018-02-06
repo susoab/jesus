@@ -83,43 +83,6 @@
 ##### how to get AWS record(maybe until afret a year)
  - learnnn
 
-##### GraphQL
- - GraphQLはAPIへの問い合わせ言語(apiのインターフェース)
- - クライアントとサーバー間のデータのやり取りを容易に記述するためのクエリ言語
- - GraphQLはFacebookにより開発されたオープンソースの言語。API作成の仕組みとしてRESTの代わりに使える
- - GraphQLの定義に従ってクエリを書き, サーバーと通信を取ることでJSONになって戻る
- - APIといえばRESTfulなendpointを経由してリクエストを送ることが一般化
-   - GraphQLはRESTとは違った方法でAPI提供者とデータのやりとりを行うことを可能とする
- - ユーザーは各社のAPIを利用する事で、各サービスのデータを検索したりサイトで利用したり出来る
-
-##### REST(REpresentational State Transfer)
- - REST(REpresentational State Transfer)はWebサービスの設計モデル
- - Web APIの仕様を決める上でのアーキテクチャスタイル、つまり基本的な考え方
- - アーキテクチャスタイルというのは、日本語では「建築様式」、見方を変えるとそれはアーキテクチャに対する制約を意味する
- - RESTなWebサービスは、そのサービスのURIにHTTPメソッドでアクセスすることでデータの送受信を行う
- - RESTではこのようにデータとして扱いやすいJSON形式が一般的に利用されている
- - APIとして提供しているリソースを取得(GET)、リソースの登録(POST)、更新(PUT/PATCH)、削除(DELETE)などがRESTにより実現できる
-
- - RESTの設計原則
-   - アドレス指定可能なURIで公開されていること
-   - インターフェース(HTTPメソッドの利用)の統一がされていること
-   - ステートレスであること
-   - 処理結果がHTTPステータスコードで通知されること
-
- - RESTの考え方では、リソースはそれぞれ固有のURIを持つ
-   - そしてそのURIにアクセスすることで、それぞれのリソースを操作することになる。
-   - その際の操作はHTTPのメソッドを「正しく」使うことで行う
-   - つまりHTTPの4つメソッド、すなわち「GET」「POST」「PUT」「DELETE」で何を行うかを伝える
-   - 「リソース」とは、ブログの記事であったり、アップロードした写真であったり、もしくはWebページ全体のコンテンツであったりといった、ひとかたまりの情報を指す
-
- - CRUD操作：「生成（Create）」「読み取り（Read）」「更新（Update）」「削除（Delete）」のイニシャルを並べた用語のこと
- - これらの原則に則ったWebサービスをRESTfulなサービスというらしい
- - RESTは「リソース」を扱うための考え方
-
- - 過去のwebapiをまとめた上でデザインに起こす
- - おそらく数え切れないくらい....?
- - なぜRESTが使われるようになったか：Webアプリケーションの主流だったSOAPとWS-*の技術スタックの複雑になったから
-
 ##### How to use pmbok
  - yup
 
@@ -173,11 +136,11 @@ print(response)
  - Before you point your fingers, make sure your hands are clean.
  - If you don’t input to something you don’t deserve to win, anymore.
  - Two wrongs don’t make a right. I wanna say someone about it. 
- - Fortune favors the bold. cuz we have to do like a try anyway. go geek.
+ - Fortune favors the bold. cuz we have to do like a try anyway. Go geek.
  - You can’t make an feature without breaking a few your mind.
  - Actions speak louder than words.
  - Easy get something, easy lost anytime.
- - Badass things are in the eye of the beholder.]
+ - Badass things are in the eye of the beholder.
  - Everyone can’t judge a face to face.
  - Dressing is a way of life.
  - In my knowledge a friend to all is a friend to none hah.
@@ -191,15 +154,6 @@ print(response)
  - I wanna get facts of life more than now
  - Netflix and chill (hahahaha)
  - Actually someone was way too uptigh.
-
-
-
-##### for digg
- - コンパイル型プログラミング言語
- - 発展型言語
- - オブジェクト指向
- - 言語、フレームワーク、アーキテクチャ、ライブラリ、ツール、タスクorソースコード管理
-
 
 
 

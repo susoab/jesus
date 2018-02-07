@@ -40,7 +40,11 @@
 ### JavaScriptの有無
  - 当サイトでは、より便利で快適にご利用いただくためにJavaScritpを利用しています。ご使用のブラウザー設定において、JavaScriptをオン（有効）にされていない場合は、正しく機能しない、もしくは正しく表示されない場合がございます。あらかじめご了承ください。
 ### JavaScript or not
+<<<<<<< HEAD
  - Our site uses JavaScritp to use it more conveniently and comfortably. If JavaScript is not on (enabled) in your browser settings, it will not function properly. Or it may not be displayed correctly. Please note.
+=======
+ - our site uses JavaScritp to use it more conveniently and comfortably. If JavaScript is not on (enabled) in your browser settings, it will not function properly. Or it may not be displayed correctly. Please note.
+>>>>>>> b6b83b55cdd1b1c1923ceb40e4a1a46467e3c16d
 ----
 ### 禁止事項
  - 当サイトのご利用にあたって、以下の行為は固くお断りいたします。
@@ -50,7 +54,11 @@
      - 信用を毀損する恐れのある行為
    - 違法または違法な可能性を有する行為
 ### Prohibitions
+<<<<<<< HEAD
  - The following acts are strictly prohibited when using ourgit  site.
+=======
+ - The following acts are strictly prohibited when using our site.
+>>>>>>> b6b83b55cdd1b1c1923ceb40e4a1a46467e3c16d
    - Prohibitions
      - Character assassination on us.
      - Disadvantageous, damaging acts

@@ -15,7 +15,7 @@
    - 本人のご了解がある場合
    - 法令等への協力のため、開示が必要となる場合
 ### Security/Purpose of the third party personal information
- - On this site, personal information is properly managed and will not be disclosed to a third party unless it falls under the following.
+ - On our site, personal information is properly managed and will not be disclosed to a third party unless it falls under the following.
    - When there is consent of the principal
    - In cases where disclosure is necessary for cooperation with laws and regulations
 ----
@@ -29,18 +29,18 @@
  - 当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますのでご了承ください。
 
 ### Disclaimer(About Copyright and trademark righ)
- - Copyrights and portrait rights of images posted on this site belong to each rights owner.
+ - Copyrights and portrait rights of images posted on our site belong to each rights owner.
  - It is not the purpose of violating the right.
  - If there is a problem with the content of the article or the posted image etc, the principal should contact us directly by e-mail
  - I'll contact you as soon as I finish reviewing
- - When moving from this site to another site by link or banner or etc, we are not responsible for any information or services provided at the visited site.
- - About contents and information of this site. Although we strive to post as accurate information as possible, misinformation and information may be outdated.
- - Please note that we can not assume any responsibility for damages caused by contents posted on this site.
+ - When moving from our site to another site by link or banner or etc, we are not responsible for any information or services provided at the visited site.
+ - About contents and information of our site. Although we strive to post as accurate information as possible, misinformation and information may be outdated.
+ - Please note that we can not assume any responsibility for damages caused by contents posted on our site.
 ----
 ### JavaScriptの有無
  - 当サイトでは、より便利で快適にご利用いただくためにJavaScritpを利用しています。ご使用のブラウザー設定において、JavaScriptをオン（有効）にされていない場合は、正しく機能しない、もしくは正しく表示されない場合がございます。あらかじめご了承ください。
 ### JavaScript or not
- - This site uses JavaScritp to use it more conveniently and comfortably. If JavaScript is not on (enabled) in your browser settings, it will not function properly. Or it may not be displayed correctly. Please note.
+ - Our site uses JavaScritp to use it more conveniently and comfortably. If JavaScript is not on (enabled) in your browser settings, it will not function properly. Or it may not be displayed correctly. Please note.
 ----
 ### 禁止事項
  - 当サイトのご利用にあたって、以下の行為は固くお断りいたします。
@@ -50,9 +50,9 @@
      - 信用を毀損する恐れのある行為
    - 違法または違法な可能性を有する行為
 ### Prohibitions
- - The following acts are strictly prohibited when using this site.
+ - The following acts are strictly prohibited when using ourgit  site.
    - Prohibitions
-     - character assassination on us.
+     - Character assassination on us.
      - Disadvantageous, damaging acts
      - Actions that could damage credibility
    - Acts with illegal or unlawful possibilities

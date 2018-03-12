@@ -118,9 +118,40 @@ print(response)
    - def sigmoid
    - def relu
 
-##### How to 
+##### How to docker
+ - 
 
-##### I just read this one 
+##### how to change our site(wordpress to only HTML)
+ - use dev.to?
+ - Don't change this design(only code)
+ - take care about "seo"
+ - we should be like "right"
+ - how can we pull date from FB?(use json?)
+ - how can we make mail form(like a backend)
+ - we should make workflow(like a f)
+ - have to make until Mar
+ - wordpress now: ssh+plugin=HTML???
+ - write by Loc + BPM:me +...
+ - and we have to do as soon as possible lol
+ - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+##### I just read this one
  - oreilly Deep Learning
  - this one is like a learn to ML...try anyway
  - it's like a not master cuz easy fo me
@@ -150,7 +181,7 @@ print(response)
  - Everyone can’t judge a face to face.
  - Dressing is a way of life.
  - In my knowledge a friend to all is a friend to none hah.
- - Hate to like a sucker (like a lair)
+ - git Hate to like a sucker (like a lair)
  - make a fast buck. 
  - You can cram it up your ass
  - What crawled up your ass?
@@ -161,7 +192,9 @@ print(response)
  - Netflix and chill (hahahaha)
  - Actually someone was way too uptigh.
 
-
-
+### jobルポ
+----
+#### ko
+ - 
 
  

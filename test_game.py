@@ -221,6 +221,8 @@ def putpositionontheterminal(player, xy):
 #maybe its a misunderstand but I'll try that
 
 #done
+#I have to make future like...I mean something like that
+
 
 #starrrrrt
 def yoyowassapdude():

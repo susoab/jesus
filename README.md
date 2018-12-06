@@ -1,15 +1,3 @@
-## Hello guys
- - yoooo wazzap how's it going? Im looking foward to meeting with you haha. 
- - But sorry It's just kidding cuz I never see you lol
- - its mean like a ...nothing 
-#### What's this & for what? 
- - This's a memo like a for output & memory
-
-#### My introduce
- - if you dont understand japanese style, you don't care about me 
- - I just live in HCMC now. But I was born in Japan 
------
-
 ### Memo(It's a snippet like how to every tech tool)
 #### How to use git?(like a snippet)
  - change to branch
